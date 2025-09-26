@@ -1,0 +1,12 @@
+ body {
+ background-color: lightyellow;
+ }
+ h3 {
+ color: purple;
+ text-decoration: underline;
+ }
+ p {
+ color: darkblue;
+ font-size: 14px;
+ }
+ 
