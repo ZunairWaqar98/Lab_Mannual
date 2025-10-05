@@ -58,13 +58,18 @@ input[type="submit"]:hover {
     background-color: #218838;
 }
 
-a:hover {
-    color: #ff5733;
-    text-decoration: underline;
-}
-li:first-child {
+
+.item1{
     background-color: #d4edda;
 }
-li:last-child {
+.item3 {
     background-color: #f8d7da;
+}
+#img
+{
+    width: 75%;
+    height: 75%;
+    align-items: center;
+    border: 2px solid gainsboro;
+    margin: 10px 10px 10px 70px;
 }
