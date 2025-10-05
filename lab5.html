@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 5: CSS Selectors</title>
+    <link rel="stylesheet" href="lab5.css">
+</head>
+<body>
+
+    <h1 id="main-title">Lab 5: Exploring CSS Selectors</h1>
+    <h2>Understanding Different Types of Selectors</h2>
+
+    <p>This is a normal paragraph styled using an element selector.</p>
+    <p class="highlight">This paragraph is highlighted using a class selector.</p>
+
+    <div>
+        <p>This paragraph is inside a div and styled using a descendant selector.</p>
+        <ul>
+            <li>First item (will be highlighted using pseudo-class)</li>
+            <li>Second item</li>
+            <li>Last item (will be highlighted using pseudo-class)</li>
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li>Child item 1 (styled with child selector)</li>
+            <li>Child item 2 (styled with child selector)</li>
+        </ul>
+    </div>
+
+    <form>
+        <input type="text" placeholder="Enter your name">
+        <input type="password" placeholder="Enter password">
+        <input type="submit" value="Submit">
+    </form>
+
+    <a href="#">Hover over this link</a>
+
+</body>
+</html>

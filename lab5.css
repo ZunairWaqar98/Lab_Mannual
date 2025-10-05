@@ -1,0 +1,70 @@
+
+h1 {
+    color: #2c3e50;
+}
+h2 {
+    color: #6c757d;
+}
+p {
+    color: #1e5b81;
+}
+
+.highlight {
+    background-color: #fff3cd;
+    border-left: 5px solid #8e7019;
+    padding: 8px;
+}
+
+#main-title {
+    font-size: 36px;
+    text-align: center;
+    color: #9c27b0;
+    border-bottom: 3px solid #9c27b0;
+    padding-bottom: 10px;
+}
+
+h2, p, li {
+    border: 1px solid #dcdcdc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+div p {
+    color: #0b5345;
+    background-color: #e8f8f5;
+}
+
+div > ul > li {
+    background-color: #fef9e7;
+    color: #7d6608;
+}
+
+input[type="text"] {
+    border: 2px solid #007bff;
+    padding: 5px;
+}
+input[type="password"] {
+    border: 2px solid #dc3545;
+    padding: 5px;
+}
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+a:hover {
+    color: #ff5733;
+    text-decoration: underline;
+}
+li:first-child {
+    background-color: #d4edda;
+}
+li:last-child {
+    background-color: #f8d7da;
+}
