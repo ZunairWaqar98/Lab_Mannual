@@ -67,9 +67,10 @@ input[type="submit"]:hover {
 }
 #img
 {
-    width: 75%;
-    height: 75%;
+    width: 50%;
+    height: 50%;
     align-items: center;
     border: 2px solid gainsboro;
     margin: 10px 10px 10px 70px;
+
 }
