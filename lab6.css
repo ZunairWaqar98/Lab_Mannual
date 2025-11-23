@@ -51,4 +51,8 @@ ol li {
     .container {
         background-color: #e0f7fa; /* light background for mobile */
     }
+    .self1
+    {
+        align-self:first baseline;
+    }
 }
