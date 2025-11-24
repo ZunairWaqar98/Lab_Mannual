@@ -4,8 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 7</title>
+    <link rel="stylesheet" href="lab7.css">
+    <style>
+    </style>
 </head>
+
 <body>
-    
+
+    <h2>Lab 7 – JavaScript Basics</h2>
+
+    <p><b>Task 1:</b> Click the button to enter your Name and Registration ID.</p>
+    <button onclick="task1()">Task 1: User Info</button>
+
+    <p><b>Task 2:</b> Click the button to perform arithmetic and comparison.</p>
+    <button onclick="task2()">Task 2: Arithmetic & Comparison</button>
+
+<script>
+console.log("Hello Students!");
+
+var name = "Ali";
+var age = 20;
+var isStudent = true;
+var marks;
+var value = null;
+
+console.log(typeof name);
+console.log(typeof age);
+console.log(typeof isStudent);
+console.log(typeof value);
+
+var country = "Pakistan";
+console.log("I love " + country);
+console.log(country.slice(0, 4)); // "Paki"
+
+var a = 10, b = 3;
+console.log("Sum:", a + b);
+console.log("Modulus:", a % b);
+console.log("Comparison:", a > b);
+
+
+function task1() {
+    var studentName = prompt("Enter your Name:");
+    var reg = prompt("Enter your Registration ID:");
+
+    alert("Name: " + studentName + "\nRegistration ID: " + reg);
+}
+
+
+function task2() {
+    var num1 = parseFloat(prompt("Enter first number:"));
+    var num2 = parseFloat(prompt("Enter second number:"));
+    var sum = num1 + num2;
+    var diff = num1 - num2;
+    var product = num1 * num2;
+    var quotient = num1 / num2;
+    var comparison = num1 > num2;
+
+    alert(
+        "Sum: " + sum +
+        "\nDifference: " + diff +
+        "\nProduct: " + product +
+        "\nQuotient: " + quotient +
+        "\nComparison (num1 > num2): " + comparison
+    );
+}
+
+</script>
+
 </body>
 </html>
