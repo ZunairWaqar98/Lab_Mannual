@@ -3,14 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 3</title>
+    <title>Web Technologies Quiz</title>
     <link rel="stylesheet" href="Assignment3.css">
+    <style>
+    </style>
 </head>
-<body id="one">
-    <div >
-    <h1 class="body"> Online Quiz System</h1>
-    <h2 class="body">Welcome to the Online Quiz System.</h2>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Web Technologies Quiz</h1>
+        <h4 class="Name">Name: <u>Zunair Waqar</u></h4>
+        <h4 class="ID">Registration ID: <u>FA22-BCE-037</u></h4>
     </div>
-    <script src="Assignment3.js"></script>
+
+    <!-- Welcome Screen -->
+    <div id="welcomeScreen" class="screen">
+        <h2>Welcome to the Quiz!</h2>
+        <button onclick="startQuiz()" class="button">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quizScreen" class="screen hidden">
+        <h3 class="question-number" id="questionNumber"></h3>
+        <h2 id="questionText"></h2>
+        <div id="optionsContainer"></div>
+        <button onclick="nextQuestion()" id="nextBtn" class="button hidden">Next Question</button>
+    </div>
+
+    <!-- Result Screen -->
+    <div id="resultScreen" class="screen hidden">
+        <h1>Your Score: <span id="finalScore"></span></h1>
+        <h2 id="finalMessage"></h2>
+        <button onclick="restartQuiz()" class="button">Take Quiz Again</button>
+    </div>
+
+    <script src="Assignment3.js">
+    </script>
 </body>
 </html>
